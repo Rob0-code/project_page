@@ -2,210 +2,206 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/components.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <title>CodeVibe</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeVibe</title>
+  
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Estilos CSS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <img class="logotipo" src="assets/image1.png" alt="Logo do Site" width="70">
-        <nav>
-            <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#Cronograma">Cronograma</a></li>
-                <li><a href="#MiniCursos">Mini Cursos</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <img class="logotipo" src="assets/logo.png" alt="Logo do Site">
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#Cronograma">Cronograma</a></li>
+        <li><a href="#MiniCursos">Mini Cursos</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- SEÇÃO 1 -->
-    <section class="secao1" id="inicio">
-        <h2>CODEVIBE</h2>
-        <div class="conteudoPrincipal">
-            <h1>26 e 27 de setembro</h1>
-            <p>Local: UFRB Cruz das Almas</p>
-            <div class="divBotoes">
-                <button class="botaoPrimario">Iscreva-se</button>
-                <button class="botaoSecundario">Entrar em contato</button>
-            </div>
-        </div>
-    </section>
-<!-- SEÇÃO CRONOGRAMA -->
-<section class="secao2" id="Cronograma">
-  <h2 class="titulosecao">Cronograma</h2>
-
-  <div class="cronograma-container">
-    
-    <!-- DIA 1 -->
-    <h3 class="dia-titulo">Dia 1 — 26 de Setembro (Palestras & Conexões)</h3>
-    <div class="tabela-container">
-      <table class="tabela-cronograma">
-        <thead>
-          <tr>
-            <th>Horário</th>
-            <th>Atividade</th>
-            <th>Descrição</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="horario">08:00 – 08:30</td>
-            <td class="destaque">Credenciamento & Boas-Vindas</td>
-            <td>Entrega de crachás, kits e recepção dos participantes.</td>
-          </tr>
-          <tr>
-            <td class="horario">08:30 – 09:00</td>
-            <td class="destaque">Abertura Oficial</td>
-            <td>Boas-vindas da organização e abertura da vibe do evento.</td>
-          </tr>
-          <tr>
-            <td class="horario">09:00 – 10:15</td>
-            <td class="destaque">Keynote: O Futuro da Computação</td>
-            <td>Palestra magna sobre tendências de mercado e IA.</td>
-          </tr>
-          <tr class="destaque-break">
-            <td class="horario">10:15 – 10:45</td>
-            <td class="destaque">Coffee Break & Networking</td>
-            <td>Pausa para café, bate-papo e integração.</td>
-          </tr>
-          <tr>
-            <td class="horario">10:45 – 12:00</td>
-            <td class="destaque">Painel: Do Código ao Impacto</td>
-            <td>Debate com especialistas sobre inovação e mercado.</td>
-          </tr>
-          <tr>
-            <td class="horario">12:00 – 13:30</td>
-            <td class="destaque">Intervalo para Almoço</td>
-            <td>Horário livre para almoço.</td>
-          </tr>
-          <tr>
-            <td class="horario">13:30 – 15:30</td>
-            <td class="destaque">Palestras Técnicas & Cases</td>
-            <td>Apresentações práticas e arquitetura de soluções.</td>
-          </tr>
-          <tr class="destaque-break">
-            <td class="horario">15:30 – 16:15</td>
-            <td class="destaque">VibeBreak (Coffee Break)</td>
-            <td>Pausa para café com espaço interativo e estandes.</td>
-          </tr>
-          <tr>
-            <td class="horario">16:15 – 17:30</td>
-            <td class="destaque">Lightning Talks & Desafio</td>
-            <td>Apresentações rápidas de projetos de participantes.</td>
-          </tr>
-          <tr>
-            <td class="horario">17:30 – 19:00</td>
-            <td class="destaque">AfterVibe / Happy Hour</td>
-            <td>Integração descontraída para fechar o primeiro dia.</td>
-          </tr>
-        </tbody>
-      </table>
+  <!-- SEÇÃO 1: HERO -->
+  <section class="secao1" id="inicio">
+    <h2>CODEVIBE</h2>
+    <div class="conteudoPrincipal">
+      <h1>26 e 27 de setembro</h1>
+      <p>Local: UFRB Cruz das Almas</p>
+      <div class="divBotoes">
+        <button class="botaoPrimario">Inscreva-se</button>
+        <a href="https://wa.me/5575981817921?text=Ol%C3%A1%2C%20quero%20saber%20mais%20informa%C3%A7%C3%B5es%20do%20evento%20CodeVibe." target="_blank">
+  <button class="botaoSecundario">Entrar em contato</button>
+</a>
+      </div>
     </div>
+  </section>
 
-    <!-- DIA 2 -->
-    <h3 class="dia-titulo">Dia 2 — 27 de Setembro (VibeArena - Minicursos)</h3>
-    <div class="tabela-container">
-      <table class="tabela-cronograma">
-        <thead>
-          <tr>
-            <th>Horário</th>
-            <th>Atividade</th>
-            <th>Descrição</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="horario">08:00 – 08:30</td>
-            <td class="destaque">Recepção & Check-in nas Salas</td>
-            <td>Encaminhamento dos participantes aos laboratórios.</td>
-          </tr>
-          <tr>
-            <td class="horario">08:30 – 10:15</td>
-            <td class="destaque">VibeArena: Minicursos (Bloco 1)</td>
-            <td><strong>Trilha A:</strong> Dev Web | <strong>Trilha B:</strong> Dados & IA</td>
-          </tr>
-          <tr class="destaque-break">
-            <td class="horario">10:15 – 10:45</td>
-            <td class="destaque">Coffee Break & Networking</td>
-            <td>Pausa para descanso e troca entre turmas.</td>
-          </tr>
-          <tr>
-            <td class="horario">10:45 – 12:30</td>
-            <td class="destaque">VibeArena: Prática (Bloco 1)</td>
-            <td>Continuação e aplicação prática dos minicursos da manhã.</td>
-          </tr>
-          <tr>
-            <td class="horario">12:30 – 14:00</td>
-            <td class="destaque">Intervalo para Almoço</td>
-            <td>Horário livre para almoço.</td>
-          </tr>
-          <tr>
-            <td class="horario">14:00 – 15:45</td>
-            <td class="destaque">VibeArena: Minicursos (Bloco 2)</td>
-            <td><strong>Trilha C:</strong> Cloud & DevOps | <strong>Trilha D:</strong> UX/UI Design</td>
-          </tr>
-          <tr class="destaque-break">
-            <td class="horario">15:45 – 16:30</td>
-            <td class="destaque">VibeBreak (Coffee Break)</td>
-            <td>Pausa da tarde e networking na arena tech.</td>
-          </tr>
-          <tr>
-            <td class="horario">16:30 – 17:30</td>
-            <td class="destaque">Encerramento & Sorteios</td>
-            <td>Apresentação de resultados, sorteios de brindes e encerramento.</td>
-          </tr>
-        </tbody>
-      </table>
+  <!-- SEÇÃO 2: CRONOGRAMA -->
+  <section class="secao2" id="Cronograma">
+    <h2 class="titulosecao">Cronograma</h2>
+
+    <div class="cronograma-container">
+      <!-- DIA 1 -->
+      <h3 class="dia-titulo">Dia 1 — 26 de Setembro (Palestras & Conexões)</h3>
+      <div class="tabela-container">
+        <table class="tabela-cronograma">
+          <thead>
+            <tr>
+              <th>Horário</th>
+              <th>Atividade</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="horario">08:00 – 08:30</td>
+              <td class="destaque">Credenciamento & Boas-Vindas</td>
+              <td>Entrega de crachás, kits e recepção dos participantes.</td>
+            </tr>
+            <tr>
+              <td class="horario">08:30 – 09:00</td>
+              <td class="destaque">Abertura Oficial</td>
+              <td>Boas-vindas da organização e abertura da vibe do evento.</td>
+            </tr>
+            <tr>
+              <td class="horario">09:00 – 10:15</td>
+              <td class="destaque">Keynote: O Futuro da Computação</td>
+              <td>Palestra magna sobre tendências de mercado e IA.</td>
+            </tr>
+            <tr class="destaque-break">
+              <td class="horario">10:15 – 10:45</td>
+              <td class="destaque">Coffee Break & Networking</td>
+              <td>Pausa para café, bate-papo e integração.</td>
+            </tr>
+            <tr>
+              <td class="horario">10:45 – 12:00</td>
+              <td class="destaque">Painel: Do Código ao Impacto</td>
+              <td>Debate com especialistas sobre inovação e mercado.</td>
+            </tr>
+            <tr>
+              <td class="horario">12:00 – 13:30</td>
+              <td class="destaque">Intervalo para Almoço</td>
+              <td>Horário livre para almoço.</td>
+            </tr>
+            <tr>
+              <td class="horario">13:30 – 15:30</td>
+              <td class="destaque">Palestras Técnicas & Cases</td>
+              <td>Apresentações práticas e arquitetura de soluções.</td>
+            </tr>
+            <tr class="destaque-break">
+              <td class="horario">15:30 – 16:15</td>
+              <td class="destaque">VibeBreak (Coffee Break)</td>
+              <td>Pausa para café com espaço interativo e estandes.</td>
+            </tr>
+            <tr>
+              <td class="horario">16:15 – 17:30</td>
+              <td class="destaque">Lightning Talks & Desafio</td>
+              <td>Apresentações rápidas de projetos de participantes.</td>
+            </tr>
+            <tr>
+              <td class="horario">17:30 – 19:00</td>
+              <td class="destaque">AfterVibe / Happy Hour</td>
+              <td>Integração descontraída para fechar o primeiro dia.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- DIA 2 -->
+      <h3 class="dia-titulo">Dia 2 — 27 de Setembro (VibeArena - Minicursos)</h3>
+      <div class="tabela-container">
+        <table class="tabela-cronograma">
+          <thead>
+            <tr>
+              <th>Horário</th>
+              <th>Atividade</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="horario">08:00 – 08:30</td>
+              <td class="destaque">Recepção & Check-in nas Salas</td>
+              <td>Encaminhamento dos participantes aos laboratórios.</td>
+            </tr>
+            <tr>
+              <td class="horario">08:30 – 10:15</td>
+              <td class="destaque">VibeArena: Minicursos (Bloco 1)</td>
+              <td><strong>Trilha A:</strong> Dev Web | <strong>Trilha B:</strong> Dados & IA</td>
+            </tr>
+            <tr class="destaque-break">
+              <td class="horario">10:15 – 10:45</td>
+              <td class="destaque">Coffee Break & Networking</td>
+              <td>Pausa para descanso e troca entre turmas.</td>
+            </tr>
+            <tr>
+              <td class="horario">10:45 – 12:30</td>
+              <td class="destaque">VibeArena: Prática (Bloco 1)</td>
+              <td>Continuação e aplicação prática dos minicursos da manhã.</td>
+            </tr>
+            <tr>
+              <td class="horario">12:30 – 14:00</td>
+              <td class="destaque">Intervalo para Almoço</td>
+              <td>Horário livre para almoço.</td>
+            </tr>
+            <tr>
+              <td class="horario">14:00 – 15:45</td>
+              <td class="destaque">VibeArena: Minicursos (Bloco 2)</td>
+              <td><strong>Trilha C:</strong> Cloud & DevOps | <strong>Trilha D:</strong> UX/UI Design</td>
+            </tr>
+            <tr class="destaque-break">
+              <td class="horario">15:45 – 16:30</td>
+              <td class="destaque">VibeBreak (Coffee Break)</td>
+              <td>Pausa da tarde e networking na arena tech.</td>
+            </tr>
+            <tr>
+              <td class="horario">16:30 – 17:30</td>
+              <td class="destaque">Encerramento & Sorteios</td>
+              <td>Apresentação de resultados, sorteios de brindes e encerramento.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
+  </section>
 
-  </div>
-</section>
+  <!-- SEÇÃO 3: MINICURSOS (VIBEARENA) -->
+  <section class="secao2" id="MiniCursos">
+    <h2 class="titulosecao">Mini Cursos</h2>
+    <p class="subtitulo">Workshops práticos para dominar as tecnologias do futuro.</p>
 
-  </div>
-  <br>
-  <br>
-</section>
-   <!-- SEÇÃO MINICURSOS (VIBEARENA) -->
-<section class="secao2" id="MiniCursos">
-  <h2 class="titulosecao">Mini Cursos</h2>
-  <p class="subtitulo">Workshops práticos para dominar as tecnologias do futuro.</p>
+    <div class="divCards">
+      <!-- CARD 1 -->
+      <div class="card branco">
+        <img src="assets/minicurso1.png" alt="Ícone">
+        <h3>Desenvolvimento Web Moderno</h3>
+        <p>Aprenda na prática a construir sites responsivos e de alta performance.</p>
+      </div>
 
-  <div class="divCards">
-    
-    <!-- CARD 1 -->
-    <div class="card branco">
-      <img src="assets/social media 1.png" alt="Ícone">
-      <h3>Desenvolvimento Web Moderno</h3>
-      <p>Aprenda na prática a construir sites responsivos e de alta performance.</p>
+      <!-- CARD 2 -->
+      <div class="card">
+        <img src="assets/minicurso2.png" alt="Ícone">
+        <h3>Inteligência Artificial & Dados</h3>
+        <p>Descubra como aplicar modelos de IA e análise de dados em projetos reais.</p>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="card branco">
+        <img src="assets/minicurso3.png" alt="Ícone">
+        <h3>Cloud Computing & DevOps</h3>
+        <p>Domine infraestrutura em nuvem, deploy contínuo e automação.</p>
+      </div>
     </div>
-
-    <!-- CARD 2 -->
-    <div class="card">
-      <img src="assets/social media 2.png" alt="Ícone">
-      <h3>Inteligência Artificial & Dados</h3>
-      <p>Descubra como aplicar modelos de IA e análise de dados em projetos reais.</p>
-    </div>
-
-    <!-- CARD 3 -->
-    <div class="card branco">
-      <img src="assets/social media 3.png" alt="Ícone">
-      <h3>Cloud Computing & DevOps</h3>
-      <p>Domine infraestrutura em nuvem, deploy contínuo e automação.</p>
-    </div>
-
-  </div>
-</section>
+  </section>
 
 </body>
-
 </html>
